@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ee8ecd31fa8854e1651a55ebd92bd58f",
+    "revision": "ba5dd45df79dc1e241aa0e6b4afee19f",
     "url": "/stc-website/index.html"
   },
   {
-    "revision": "18e4ad5f6284e9baa61a",
-    "url": "/stc-website/static/css/main.c2fd76b1.chunk.css"
+    "revision": "9c30a7b151b14effdc70",
+    "url": "/stc-website/static/css/main.cde32fd7.chunk.css"
   },
   {
-    "revision": "c36cfd10710d126959f3",
-    "url": "/stc-website/static/js/2.27df45ae.chunk.js"
+    "revision": "97b273db11888515229a",
+    "url": "/stc-website/static/js/2.2d8f8914.chunk.js"
   },
   {
     "revision": "94a3d75db89699ee2ef9f4f4d471747b",
-    "url": "/stc-website/static/js/2.27df45ae.chunk.js.LICENSE.txt"
+    "url": "/stc-website/static/js/2.2d8f8914.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "18e4ad5f6284e9baa61a",
-    "url": "/stc-website/static/js/main.99179e75.chunk.js"
+    "revision": "9c30a7b151b14effdc70",
+    "url": "/stc-website/static/js/main.18e27dde.chunk.js"
   },
   {
     "revision": "86c26e00c3b661a7cbe6",
     "url": "/stc-website/static/js/runtime-main.d9217c44.js"
+  },
+  {
+    "revision": "905c18755c4748815114c80a94c3f55c",
+    "url": "/stc-website/static/media/bg1.905c1875.svg"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -42,6 +46,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/stc-website/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "79946aa25c13d7db1bd1b00ebd7d62e2",
+    "url": "/stc-website/static/media/jatin.79946aa2.jpg"
+  },
+  {
+    "revision": "f2c0aa99a6de69cbe898928726255333",
+    "url": "/stc-website/static/media/mayank.f2c0aa99.jpg"
+  },
+  {
+    "revision": "02c3595b2a9a0af6ef7d4e84998bf397",
+    "url": "/stc-website/static/media/mukund.02c3595b.PNG"
   },
   {
     "revision": "0b8a30b10cbe7708d5f3a4b007c1d665",
@@ -66,5 +82,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8dd65439b6d2e85e55e9a756dfda0b3c",
     "url": "/stc-website/static/media/promo-1.8dd65439.png"
+  },
+  {
+    "revision": "a3bf369f768729bde44b2bf734f7cb8c",
+    "url": "/stc-website/static/media/shrey.a3bf369f.jpeg"
+  },
+  {
+    "revision": "42575c727fc5a7d7bc67454f230a82bf",
+    "url": "/stc-website/static/media/ujjwal.42575c72.jpg"
   }
 ]);

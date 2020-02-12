@@ -1,25 +1,31 @@
 {
   "files": {
-    "main.css": "/stc-website/static/css/main.c2fd76b1.chunk.css",
-    "main.js": "/stc-website/static/js/main.99179e75.chunk.js",
-    "main.js.map": "/stc-website/static/js/main.99179e75.chunk.js.map",
+    "main.css": "/stc-website/static/css/main.cde32fd7.chunk.css",
+    "main.js": "/stc-website/static/js/main.18e27dde.chunk.js",
+    "main.js.map": "/stc-website/static/js/main.18e27dde.chunk.js.map",
     "runtime-main.js": "/stc-website/static/js/runtime-main.d9217c44.js",
     "runtime-main.js.map": "/stc-website/static/js/runtime-main.d9217c44.js.map",
-    "static/js/2.27df45ae.chunk.js": "/stc-website/static/js/2.27df45ae.chunk.js",
-    "static/js/2.27df45ae.chunk.js.map": "/stc-website/static/js/2.27df45ae.chunk.js.map",
+    "static/js/2.2d8f8914.chunk.js": "/stc-website/static/js/2.2d8f8914.chunk.js",
+    "static/js/2.2d8f8914.chunk.js.map": "/stc-website/static/js/2.2d8f8914.chunk.js.map",
     "index.html": "/stc-website/index.html",
-    "precache-manifest.480eb01832b044f5fd3cfeb2860cdcf4.js": "/stc-website/precache-manifest.480eb01832b044f5fd3cfeb2860cdcf4.js",
+    "precache-manifest.42359d3b02fe0fb6bbd5185dffefccbf.js": "/stc-website/precache-manifest.42359d3b02fe0fb6bbd5185dffefccbf.js",
     "service-worker.js": "/stc-website/service-worker.js",
-    "static/css/main.c2fd76b1.chunk.css.map": "/stc-website/static/css/main.c2fd76b1.chunk.css.map",
-    "static/js/2.27df45ae.chunk.js.LICENSE.txt": "/stc-website/static/js/2.27df45ae.chunk.js.LICENSE.txt",
+    "static/css/main.cde32fd7.chunk.css.map": "/stc-website/static/css/main.cde32fd7.chunk.css.map",
+    "static/js/2.2d8f8914.chunk.js.LICENSE.txt": "/stc-website/static/js/2.2d8f8914.chunk.js.LICENSE.txt",
+    "static/media/bg1.svg": "/stc-website/static/media/bg1.905c1875.svg",
     "static/media/font-awesome.min.css": "/stc-website/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/jatin.jpg": "/stc-website/static/media/jatin.79946aa2.jpg",
+    "static/media/mayank.jpg": "/stc-website/static/media/mayank.f2c0aa99.jpg",
+    "static/media/mukund.PNG": "/stc-website/static/media/mukund.02c3595b.PNG",
     "static/media/nucleo.css": "/stc-website/static/media/nucleo-icons.f82ec6ba.ttf",
-    "static/media/promo-1.png": "/stc-website/static/media/promo-1.8dd65439.png"
+    "static/media/promo-1.png": "/stc-website/static/media/promo-1.8dd65439.png",
+    "static/media/shrey.jpeg": "/stc-website/static/media/shrey.a3bf369f.jpeg",
+    "static/media/ujjwal.jpg": "/stc-website/static/media/ujjwal.42575c72.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d9217c44.js",
-    "static/js/2.27df45ae.chunk.js",
-    "static/css/main.c2fd76b1.chunk.css",
-    "static/js/main.99179e75.chunk.js"
+    "static/js/2.2d8f8914.chunk.js",
+    "static/css/main.cde32fd7.chunk.css",
+    "static/js/main.18e27dde.chunk.js"
   ]
 }
