@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Container,Row,Col,Button,UncontrolledTooltip,Nav,NavItem,NavLink} from 'reactstrap'
+import {Container,Row,Col,Button,UncontrolledTooltip} from 'reactstrap'
 class Footer extends Component{
     render(){
         return(

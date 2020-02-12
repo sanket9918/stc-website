@@ -19,7 +19,7 @@ import {
                       <Col className="order-md-2" md="6">
                         <img
                           alt="..."
-                          className="img-fluid floating"
+                          className="img-fluid"
                           src={require("../src/assets/img/theme/promo-1.png")}
                         />
                       </Col>

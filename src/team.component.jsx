@@ -18,12 +18,12 @@ class Team extends Component{
               <Row>
                 <Col className="mb-5 mb-lg-0" lg="3" md="6">
                   <div className="px-4">
-                    {/* <img
+                    <img
                       alt="..."
                       className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={require("assets/img/theme/team-1-800x800.jpg")}
+                      src={require("../src/assets/img/board/jatin.jpg")}
                       style={{ width: "200px" }}
-                    /> */}
+                    />
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-1">Jatin Mahajan</span>
@@ -60,12 +60,12 @@ class Team extends Component{
                 </Col>
                 <Col className="mb-5 mb-lg-0" lg="3" md="6">
                   <div className="px-4">
-                    {/* <img
+                  <img
                       alt="..."
                       className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={require("assets/img/theme/team-2-800x800.jpg")}
+                      src={require("../src/assets/img/board/shrey.jpeg")}
                       style={{ width: "200px" }}
-                    /> */}
+                    />
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-1">Shrey Sindher</span>
@@ -104,12 +104,12 @@ class Team extends Component{
                 </Col>
                 <Col className="mb-5 mb-lg-0" lg="3" md="6">
                   <div className="px-4">
-                    {/* <img
+                  <img
                       alt="..."
                       className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={require("assets/img/theme/team-3-800x800.jpg")}
+                      src={require("../src/assets/img/board/ujjwal.jpg")}
                       style={{ width: "200px" }}
-                    /> */}
+                    />
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-1">Ujjwal Sinha</span>
@@ -146,12 +146,12 @@ class Team extends Component{
                 </Col>
                 <Col className="mb-5 mb-lg-0" lg="3" md="6">
                   <div className="px-4">
-                    {/* <img
+                  <img
                       alt="..."
                       className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={require("assets/img/theme/team-4-800x800.jpg")}
+                      src={require("../src/assets/img/board/mayank.jpg")}
                       style={{ width: "200px" }}
-                    /> */}
+                    />
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-1">Mayank Yadav</span>
@@ -188,14 +188,14 @@ class Team extends Component{
                 </Col>
               </Row>
               <Row>
-                <Col className="mb-5 mb-lg-0" lg="12" md="12">
+                <Col className="mb-5 mb-lg-0" lg="12" md="12" style={{marginTop :"2em"}}>
                   <div className="px-4">
-                    {/* <img
+                  <img
                       alt="..."
                       className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={require("assets/img/theme/team-1-800x800.jpg")}
+                      src={require("../src/assets/img/board/mukund.PNG")}
                       style={{ width: "200px" }}
-                    /> */}
+                    />
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-1">Mukundh Bhusan</span>

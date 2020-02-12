@@ -37,6 +37,13 @@ class Hero extends Component{
                         
                       </div>
                     </Col>
+                    <Col lg="6">
+                    <img
+                          alt="..."
+                          className="img-fluid floating"
+                          src={require("../src/assets/img/theme/bg1.svg")}
+                        />
+                    </Col>
                   </Row>
                 </div>
               </Container>
