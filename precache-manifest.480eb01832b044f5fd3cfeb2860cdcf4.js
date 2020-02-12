@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8fe5c92a50e3ef7ce3059be5e26118b",
+    "revision": "ee8ecd31fa8854e1651a55ebd92bd58f",
     "url": "/stc-website/index.html"
   },
   {
-    "revision": "46911bf4958adbe7e899",
+    "revision": "18e4ad5f6284e9baa61a",
     "url": "/stc-website/static/css/main.c2fd76b1.chunk.css"
   },
   {
-    "revision": "a3909c7add84cc960e60",
-    "url": "/stc-website/static/js/2.70b10cc6.chunk.js"
+    "revision": "c36cfd10710d126959f3",
+    "url": "/stc-website/static/js/2.27df45ae.chunk.js"
   },
   {
-    "revision": "cd5079a5964b7b5fc98e65cfa4bcc388",
-    "url": "/stc-website/static/js/2.70b10cc6.chunk.js.LICENSE.txt"
+    "revision": "94a3d75db89699ee2ef9f4f4d471747b",
+    "url": "/stc-website/static/js/2.27df45ae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "46911bf4958adbe7e899",
-    "url": "/stc-website/static/js/main.cf8eb0bb.chunk.js"
+    "revision": "18e4ad5f6284e9baa61a",
+    "url": "/stc-website/static/js/main.99179e75.chunk.js"
   },
   {
     "revision": "86c26e00c3b661a7cbe6",
