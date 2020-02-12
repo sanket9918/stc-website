@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import NavBar1 from './navbar.component';
+import Hero from './main-hero.component';
+import About from './about.component';
+import Projects from './projects.component';
+import Contact from './contact.component';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component{
+  // componentDidMount() {
+  //   document.documentElement.scrollTop = 0;
+  //   document.scrollingElement.scrollTop = 0;
+  //   this.refs.main.scrollTop = 0;
+  // }
+
+  render()
+  {
+    return(
+      <>
+      <NavBar1 />
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+      </>
+    )
+  }
+  
 }
-
-export default App;
+export default App
