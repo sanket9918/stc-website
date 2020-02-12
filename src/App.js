@@ -4,6 +4,9 @@ import Hero from './main-hero.component';
 import About from './about.component';
 import Projects from './projects.component';
 import Contact from './contact.component';
+import Team from './team.component';
+import Footer from './footer.component';
+
 
 
 class App extends Component{
@@ -22,9 +25,12 @@ class App extends Component{
       <About />
       <Projects />
       <Contact />
+      <Team />
+      <Footer />
       </>
     )
   }
   
 }
+
 export default App
