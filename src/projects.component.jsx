@@ -56,28 +56,7 @@ class Projects extends Component{
                         </CardBody>
                       </Card>
                     </Col>
-                    {/* <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
-                        <CardBody className="py-5">
-                          
-                          <h6 className="text-primary text-uppercase">
-                            Blog
-                          </h6>
-                          <p className="description mt-3">
-                            We deliver excellent content that make a difference.
-                          </p>
-                          
-                          <Button
-                            className="mt-4"
-                            color="primary"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            More info
-                          </Button>
-                        </CardBody>
-                      </Card>
-                    </Col> */}
+                    
                   </Row>
                 </Col>
               </Row>

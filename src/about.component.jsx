@@ -32,57 +32,7 @@ import {
                           <p>
                             We are a community driven with commitment and spirit of achieving succes while making a our own mark with our presence
                           </p>
-                          {/* <ul className="list-unstyled mt-5">
-                            <li className="py-2">
-                              <div className="d-flex align-items-center">
-                                <div>
-                                  <Badge
-                                    className="badge-circle mr-3"
-                                    color="success"
-                                  >
-                                    <i className="ni ni-settings-gear-65" />
-                                  </Badge>
-                                </div>
-                                <div>
-                                  <h6 className="mb-0">
-                                    Carefully crafted components
-                                  </h6>
-                                </div>
-                              </div>
-                            </li>
-                            <li className="py-2">
-                              <div className="d-flex align-items-center">
-                                <div>
-                                  <Badge
-                                    className="badge-circle mr-3"
-                                    color="success"
-                                  >
-                                    <i className="ni ni-html5" />
-                                  </Badge>
-                                </div>
-                                <div>
-                                  <h6 className="mb-0">Amazing page examples</h6>
-                                </div>
-                              </div>
-                            </li>
-                            <li className="py-2">
-                              <div className="d-flex align-items-center">
-                                <div>
-                                  <Badge
-                                    className="badge-circle mr-3"
-                                    color="success"
-                                  >
-                                    <i className="ni ni-satisfied" />
-                                  </Badge>
-                                </div>
-                                <div>
-                                  <h6 className="mb-0">
-                                    Super friendly support team
-                                  </h6>
-                                </div>
-                              </div>
-                            </li>
-                          </ul> */}
+                          
                         </div>
                       </Col>
                     </Row>
