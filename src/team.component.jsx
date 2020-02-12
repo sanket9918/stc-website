@@ -9,7 +9,7 @@ class Team extends Component{
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
-                  <h2 className="display-3">The amazing Team</h2>
+                  <h2 className="display-3">Our Board</h2>
                   <p className="lead text-muted">
                     Our pathfinders who make us walk on the path of success.
                   </p>
@@ -46,14 +46,7 @@ class Team extends Component{
                         >
                           <i className="fa fa-facebook" />
                         </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="warning"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-dribbble" />
-                        </Button>
+                        
                       </div>
                     </div>
                   </div>
@@ -90,14 +83,7 @@ class Team extends Component{
                         >
                           <i className="fa fa-facebook" />
                         </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="primary"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-dribbble" />
-                        </Button>
+                        
                       </div>
                     </div>
                   </div>
@@ -132,14 +118,7 @@ class Team extends Component{
                         >
                           <i className="fa fa-facebook" />
                         </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-dribbble" />
-                        </Button>
+                        
                       </div>
                     </div>
                   </div>
@@ -174,14 +153,7 @@ class Team extends Component{
                         >
                           <i className="fa fa-facebook" />
                         </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="success"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-dribbble" />
-                        </Button>
+                        
                       </div>
                     </div>
                   </div>
@@ -218,14 +190,7 @@ class Team extends Component{
                         >
                           <i className="fa fa-facebook" />
                         </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="warning"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-dribbble" />
-                        </Button>
+                        
                       </div>
                     </div>
                   </div>
