@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/stc-website/static/css/main.cde32fd7.chunk.css",
-    "main.js": "/stc-website/static/js/main.18e27dde.chunk.js",
-    "main.js.map": "/stc-website/static/js/main.18e27dde.chunk.js.map",
+    "main.js": "/stc-website/static/js/main.df11ca5b.chunk.js",
+    "main.js.map": "/stc-website/static/js/main.df11ca5b.chunk.js.map",
     "runtime-main.js": "/stc-website/static/js/runtime-main.d9217c44.js",
     "runtime-main.js.map": "/stc-website/static/js/runtime-main.d9217c44.js.map",
     "static/js/2.2d8f8914.chunk.js": "/stc-website/static/js/2.2d8f8914.chunk.js",
     "static/js/2.2d8f8914.chunk.js.map": "/stc-website/static/js/2.2d8f8914.chunk.js.map",
     "index.html": "/stc-website/index.html",
-    "precache-manifest.42359d3b02fe0fb6bbd5185dffefccbf.js": "/stc-website/precache-manifest.42359d3b02fe0fb6bbd5185dffefccbf.js",
+    "precache-manifest.6e3167170d58ab451f69f8be6946195c.js": "/stc-website/precache-manifest.6e3167170d58ab451f69f8be6946195c.js",
     "service-worker.js": "/stc-website/service-worker.js",
     "static/css/main.cde32fd7.chunk.css.map": "/stc-website/static/css/main.cde32fd7.chunk.css.map",
     "static/js/2.2d8f8914.chunk.js.LICENSE.txt": "/stc-website/static/js/2.2d8f8914.chunk.js.LICENSE.txt",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.d9217c44.js",
     "static/js/2.2d8f8914.chunk.js",
     "static/css/main.cde32fd7.chunk.css",
-    "static/js/main.18e27dde.chunk.js"
+    "static/js/main.df11ca5b.chunk.js"
   ]
 }
