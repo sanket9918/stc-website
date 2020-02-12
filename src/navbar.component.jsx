@@ -123,7 +123,7 @@ import {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.facebook.com/creativetim"
+                      href="https://www.facebook.com/mstcvit/"
                       id="tooltip333589074"
                       target="_blank"
                     >
@@ -139,7 +139,7 @@ import {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.instagram.com/creativetimofficial"
+                      href="https://www.instagram.com/mstcvit/"
                       id="tooltip356693867"
                       target="_blank"
                     >
