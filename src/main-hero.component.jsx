@@ -16,7 +16,7 @@ class Hero extends Component{
             <Container className="py-lg-md d-flex">
                 <div className="col px-0">
                   <Row>
-                    <Col lg="6">
+                    <Col lg="6" >
                       <h1 className="display-3 text-white">
                         We are One STC{" "}
                         

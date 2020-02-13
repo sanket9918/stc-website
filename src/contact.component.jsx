@@ -30,7 +30,7 @@ import {
                
               <section className="section section-lg section-hero section-shaped">
               
-              <div className="shape shape-style-1 shape-default">
+              <div className="shape shape-style-1 shape-dark">
               
             </div>
             <div className="separator separator-bottom separator-skew zindex-100">
