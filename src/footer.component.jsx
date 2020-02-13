@@ -3,9 +3,14 @@ import {Container,Row,Col,Button,UncontrolledTooltip} from 'reactstrap'
 class Footer extends Component{
     render(){
         return(
-            <>
+            <div style={{marginTop:"-7em"}}>
+
+<svg viewBox="0 0 907 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M907 115V23.781C773.637 38.5914 698.864 38.8327 565.5 23.781C342.471 -7.15686 218.672 -6.98349 0 23.781V115H907Z" fill="black"/>
+</svg>
+
             <footer className=" footer">
-          <Container>
+            <Container>
             <Row className=" row-grid align-items-center mb-5">
               <Col lg="6">
                 <h3 className=" text-primary font-weight-light mb-2">
@@ -60,7 +65,7 @@ class Footer extends Component{
             </Row>
           </Container>
         </footer>
-            </>
+            </div>
         )
     }
 }
