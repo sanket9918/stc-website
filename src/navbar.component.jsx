@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Headroom from "headroom.js";
 import {
-    Button,
+    // Button,
     UncontrolledCollapse,   
     UncontrolledDropdown,    
     NavbarBrand,
@@ -95,7 +95,7 @@ import {
                     </UncontrolledTooltip>
                   </NavItem>
                   
-                  <NavItem className="d-none d-lg-block ml-lg-4">
+                  {/* <NavItem className="d-none d-lg-block ml-lg-4">
                     <Button
                       className="btn-neutral btn-icon"
                       color="default"
@@ -107,7 +107,7 @@ import {
                         Explore
                       </span>
                     </Button>
-                  </NavItem>
+                  </NavItem> */}
                 </Nav>
               </UncontrolledCollapse>
             </Container>
