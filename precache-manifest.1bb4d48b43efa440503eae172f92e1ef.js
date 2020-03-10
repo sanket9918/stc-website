@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30e5bf78afc2327df17729bfa87ebcc3",
+    "revision": "19e02058c5d24bcd9b406ea1df5e02a9",
     "url": "/stc-website/index.html"
   },
   {
-    "revision": "4d5927adcbde367a9efe",
+    "revision": "f60321b3dbc6a02e1c39",
     "url": "/stc-website/static/css/main.626b0a9e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stc-website/static/js/2.2d8f8914.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4d5927adcbde367a9efe",
-    "url": "/stc-website/static/js/main.9ebaef24.chunk.js"
+    "revision": "f60321b3dbc6a02e1c39",
+    "url": "/stc-website/static/js/main.cadfed2b.chunk.js"
   },
   {
     "revision": "86c26e00c3b661a7cbe6",
