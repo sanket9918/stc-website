@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "274ad292edad903ffcadbb4da278eded",
+    "revision": "30e5bf78afc2327df17729bfa87ebcc3",
     "url": "/stc-website/index.html"
   },
   {
-    "revision": "bdeefacead730f4e6a39",
-    "url": "/stc-website/static/css/main.c92f62ae.chunk.css"
+    "revision": "4d5927adcbde367a9efe",
+    "url": "/stc-website/static/css/main.626b0a9e.chunk.css"
   },
   {
     "revision": "97b273db11888515229a",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stc-website/static/js/2.2d8f8914.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bdeefacead730f4e6a39",
-    "url": "/stc-website/static/js/main.98da0331.chunk.js"
+    "revision": "4d5927adcbde367a9efe",
+    "url": "/stc-website/static/js/main.9ebaef24.chunk.js"
   },
   {
     "revision": "86c26e00c3b661a7cbe6",
@@ -90,5 +90,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "42575c727fc5a7d7bc67454f230a82bf",
     "url": "/stc-website/static/media/ujjwal.42575c72.jpg"
+  },
+  {
+    "revision": "185ac7e2719efdc6862d417dac26efe0",
+    "url": "/stc-website/static/media/white.185ac7e2.svg"
   }
 ]);
