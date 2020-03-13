@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "123e24cc034c392d3302492af2eb4c18",
+    "revision": "88dc42650afafbfbc665fc64ff36ce88",
     "url": "/stc-website/index.html"
   },
   {
-    "revision": "21518d600558683a52f7",
+    "revision": "8fbfd8978c0d7896fc51",
     "url": "/stc-website/static/css/main.8f13cf54.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stc-website/static/js/2.b12e709c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "21518d600558683a52f7",
-    "url": "/stc-website/static/js/main.e15dec39.chunk.js"
+    "revision": "8fbfd8978c0d7896fc51",
+    "url": "/stc-website/static/js/main.095f8555.chunk.js"
   },
   {
     "revision": "86c26e00c3b661a7cbe6",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stc-website/static/media/nucleo-icons.f82ec6ba.ttf"
   },
   {
-    "revision": "c58caa2d9566ddc209ab51ae684c8f88",
-    "url": "/stc-website/static/media/promo-1.c58caa2d.png"
+    "revision": "33bcbc771eb1fd3a0076ce2f1b31be86",
+    "url": "/stc-website/static/media/promo-1.33bcbc77.png"
   },
   {
     "revision": "a3bf369f768729bde44b2bf734f7cb8c",
