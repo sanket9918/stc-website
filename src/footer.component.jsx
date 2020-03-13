@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
-import {Container,Row,Col,Button,UncontrolledTooltip} from 'reactstrap'
-class Footer extends Component{
-    render(){
-        return(
-            <div style={{marginTop:"-7em"}}>
+import { Container, Row, Col, Button, UncontrolledTooltip } from 'reactstrap'
+import footimage from '../src/assets/img/brand/white-horizontal.svg'
+class Footer extends Component {
+  render() {
+    return (
+      <div style={{ marginTop: "-7em" }}>
 
-<svg viewBox="0 0 907 115" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M907 115V23.781C773.637 38.5914 698.864 38.8327 565.5 23.781C342.471 -7.15686 218.672 -6.98349 0 23.781V115H907Z" fill="black"/>
-</svg>
+        <svg viewBox="0 0 907 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M907 115V23.781C773.637 38.5914 698.864 38.8327 565.5 23.781C342.471 -7.15686 218.672 -6.98349 0 23.781V115H907Z" fill="black" />
+        </svg>
 
-            <footer className=" footer">
-            <Container>
+        <footer className=" footer">
+          <Container>
             <Row className=" row-grid align-items-center mb-5">
               <Col lg="6">
                 <h3 className=" text-primary font-weight-light mb-2">
@@ -21,7 +22,7 @@ class Footer extends Component{
                 </h4>
               </Col>
               <Col className=" text-lg-center btn-wrapper" lg="6">
-                
+
                 <Button
                   className=" btn-neutral btn-icon-only btn-round ml-1"
                   color="facebook"
@@ -48,26 +49,37 @@ class Footer extends Component{
                 <UncontrolledTooltip delay={0} target="insta">
                   Follow us
                 </UncontrolledTooltip>
-            
+
               </Col>
             </Row>
             <hr />
-            <Row className=" align-items-center justify-content-md-between">
+            <center>
+
+              <img
+                alt="..."
+                className="img-fluid"
+                src={footimage}
+                style={{ height: "200px", paddingBottom: "1em" }}
+              />
               <Col md="6">
                 <div className=" copyright">
                   © {new Date().getFullYear()}{" "}
                   Student Technical Community .
-                  
-                  
+
+
                 </div>
+
+
               </Col>
-              
+            </center>
+            <Row className=" align-items-center justify-content-md-between">
+
             </Row>
           </Container>
         </footer>
-            </div>
-        )
-    }
+      </div>
+    )
+  }
 }
 
 export default Footer

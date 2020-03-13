@@ -33,7 +33,7 @@ import {
               <NavbarBrand className="mr-lg-5" >
               <img
                   alt="..."
-                  src={require("../src/assets/img/brand/white.png")}
+                  src={require("../src/assets/img/brand/white.svg")}
                 />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
