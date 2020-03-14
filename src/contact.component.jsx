@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import axios from 'axios'
 import classnames from 'classnames'
 import {
     Button,
@@ -18,10 +19,36 @@ import {
 
   class Contact extends Component{
 
+
+    handleSubmit(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const messsage = document.getElementById('message').value;
+      axios({
+          method: "POST", 
+          url:"http://localhost:3002/send", 
+          data: {
+              name: name,   
+              email: email,  
+              message: messsage
+          }
+      }).then((response)=>{
+          if (response.data.msg === 'success'){
+              alert("Message Sent."); 
+            
+          }else if(response.data.msg === 'fail'){
+              alert("Message failed to send.")
+          }
+      })
+  }
+
+  
     constructor(){
         super()
         this.state={
-            nameFocused:''
+            nameFocused:'',
+            
         }
     }
       render(){
@@ -48,6 +75,8 @@ import {
                       <p className="mt-0">
                         Please feel free to contact us through this form.
                       </p>
+
+                      <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
                       <FormGroup
                         className={classnames("mt-5", {
                           focused: this.state.nameFocused
@@ -60,6 +89,7 @@ import {
                             </InputGroupText>
                           </InputGroupAddon>
                           <Input
+                            id="name"
                             placeholder="Your name"
                             type="text"
                             onFocus={e => this.setState({ nameFocused: true })}
@@ -79,6 +109,7 @@ import {
                             </InputGroupText>
                           </InputGroupAddon>
                           <Input
+                            id="email"
                             placeholder="Email address"
                             type="email"
                             onFocus={e => this.setState({ emailFocused: true })}
@@ -88,6 +119,7 @@ import {
                       </FormGroup>
                       <FormGroup className="mb-4">
                         <Input
+                          id="message"
                           className="form-control-alternative"
                           cols="80"
                           name="name"
@@ -102,12 +134,14 @@ import {
                           className="btn-round"
                           color="default"
                           size="lg"
-                          type="button"
+                          type="submit"
                         >
                           Send Message
                         </Button>
                       </div>
+                      </form>
                     </CardBody>
+                    
                   </Card>
                 </Col>
               </Row>

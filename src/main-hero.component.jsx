@@ -22,13 +22,14 @@ class Hero extends Component {
 
                     </h1>
                     <p className="lead text-white">
-                    STC powered by Microsoft is a student community in VIT Vellore aimed at the enhancing skills of its members in various domains such as Management, Technical and Design through live technical sessions given by the senior members skilled in their respective domains. STC acts as a pathway for students to interact with people who have a passion for innovation.
+                      Student Technical Community is a student community in VIT Vellore aimed at the enhancing skills of its members in 
+                      various domains through quality projects and events tailored for cutting edge skill developement.                      
+                      We have a passion for innovation and excellence.
                       </p>
                     <div className="btn-wrapper">
                       <Button
                         className="btn-icon mb-3 mb-sm-0"
                         color="info"
-                        href="#"
                       >
 
                         <span className="btn-inner--text">Join US</span>
