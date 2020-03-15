@@ -13,7 +13,7 @@ class Projects extends Component{
                 <Col lg="12">
                   <Row className="row-grid">
                     <Col lg="6">
-                      <Card className="card-lift--hover shadow border-0">
+                      <Card className="card-lift--hover shadow border-0" style={{height:"15em"}}>
                         <CardBody className="py-5">
                           
                           <h6 className="text-primary text-uppercase">
@@ -26,8 +26,8 @@ class Projects extends Component{
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="/project"
+                            // onClick={e => e.preventDefault()}
                           >
                             More info
                           </Button>
@@ -35,7 +35,7 @@ class Projects extends Component{
                       </Card>
                     </Col>
                     <Col lg="6">
-                      <Card className="card-lift--hover shadow border-0">
+                      <Card className="card-lift--hover shadow border-0" style={{height:"15em"}}>
                         <CardBody className="py-5">
                           
                           <h6 className="text-success text-uppercase">
@@ -48,8 +48,8 @@ class Projects extends Component{
                           <Button
                             className="mt-4"
                             color="success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="/events"
+                            // onClick={e => e.preventDefault()}
                           >
                             More info
                           </Button>
