@@ -27,13 +27,13 @@ class Hero extends Component {
                       We have a passion for innovation and excellence.
                       </p>
                     <div className="btn-wrapper">
-                      <Button
+                      {/* <Button
                         className="btn-icon mb-3 mb-sm-0"
                         color="info"
                       >
 
                         <span className="btn-inner--text">Join US</span>
-                      </Button>
+                      </Button> */}
 
                     </div>
                   </Col>

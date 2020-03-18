@@ -4,9 +4,9 @@ import footimage from '../src/assets/img/brand/white-horizontal.svg'
 class Footer extends Component {
   render() {
     return (
-      <div style={{ marginTop: "-7em" }}>
+      <div style={{ marginTop: "-6.8em" }}>
 
-        <svg viewBox="0 0 907 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 907 110" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M907 115V23.781C773.637 38.5914 698.864 38.8327 565.5 23.781C342.471 -7.15686 218.672 -6.98349 0 23.781V115H907Z" fill="black" />
         </svg>
 

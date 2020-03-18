@@ -6,6 +6,8 @@ import Projects from './projects.component';
 import Contact from './contact.component';
 import Team from './team.component';
 import Footer from './footer.component';
+import Testimonial from './testimonial.component';
+
 
 
 
@@ -20,10 +22,12 @@ class App extends Component{
   {
     return(
       <>
+     
       <NavBar1 />
       <Hero />
       <About />
-      <Projects />      
+      <Projects />   
+      <Testimonial />   
       <Team />
       <Contact />
       <Footer />

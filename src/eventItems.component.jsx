@@ -38,7 +38,7 @@ class EventItems extends Component {
                                                                 <Card className="card-lift--hover shadow border-0" style={{height:"20em"}}>
                                                                     <CardBody className="py-5">
 
-                                                                        <h6 className="text-primary text-uppercase">
+                                                                        <h6 className="text-success text-uppercase">
                                                                             Docker Workshop
                           </h6>
                                                                         <p className="description mt-3">
