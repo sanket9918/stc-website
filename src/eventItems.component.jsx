@@ -35,7 +35,7 @@ class EventItems extends Component {
                                                     <Col lg="12">
                                                         <Row className="row-grid">
                                                             <Col lg="4">
-                                                                <Card className="card-lift--hover shadow border-0" style={{height:"20em"}}>
+                                                                <Card className="card-lift--hover shadow border-0" style={{ height: "20em" }}>
                                                                     <CardBody className="py-5">
 
                                                                         <h6 className="text-success text-uppercase">
@@ -57,7 +57,7 @@ class EventItems extends Component {
                                                                 </Card>
                                                             </Col>
                                                             <Col lg="4">
-                                                                <Card className="card-lift--hover shadow border-0" style={{height:"20em"}}>
+                                                                <Card className="card-lift--hover shadow border-0" style={{ height: "20em" }}>
                                                                     <CardBody className="py-5">
 
                                                                         <h6 className="text-success text-uppercase">
@@ -79,7 +79,7 @@ class EventItems extends Component {
                                                             </Col>
 
                                                             <Col lg="4">
-                                                                <Card className="card-lift--hover shadow border-0" style={{height:"20em"}}>
+                                                                <Card className="card-lift--hover shadow border-0" style={{ height: "20em" }}>
                                                                     <CardBody className="py-5">
 
                                                                         <h6 className="text-success text-uppercase">
@@ -104,7 +104,7 @@ class EventItems extends Component {
                                                         </Row>
                                                         <Row className="row-grid">
                                                             <Col lg="4">
-                                                                <Card className="card-liftt--hover shadow border-0" style={{height:"20em"}}>
+                                                                <Card className="card-liftt--hover shadow border-0" style={{ height: "20em" }}>
                                                                     <CardBody className="py-5">
 
                                                                         <h6 className="text-success text-uppercase">

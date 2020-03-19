@@ -17,7 +17,7 @@ class Footer extends Component {
                 <h3 className=" text-primary font-weight-light mb-2">
                   Thank you for paying us a visit.
                 </h3>
-                <h4 className=" mb-0 font-weight-light">
+                <h4 className=" mb-0 font-weight-light" style={{ color: '#60608B' }}>
                   Let's get in touch on any of these platforms.
                 </h4>
               </Col>
@@ -68,8 +68,10 @@ class Footer extends Component {
 
 
                 </div>
-
-
+                <br/>
+                <div className="copyright">
+                  <p>Designed by <a href="https://www.linkedin.com/in/sanket-mohapatra-b10661176/"> Sanket Mohapatra</a></p>
+                </div>
               </Col>
             </center>
             <Row className=" align-items-center justify-content-md-between">

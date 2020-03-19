@@ -11,20 +11,22 @@ import ProjectItem from './projectItm.component';
 import EventItems from './eventItems.component';
 
 
+
+
 ReactDOM.render(
-//     <BrowserRouter basename={`${process.env.PUBLIC_URL}/`}>
-//         <Switch>
-//             <Route path="/" exact render={props => <App />} />
-//             <Route
-//                 path="/project"
-//                 exact
-//                 render={props => <ProjectItem />} />
-//             <Route
-//                 path="/events"
-//                 exact
-// render={props => <EventItems />} />
-//         </Switch>
-//     </BrowserRouter>
-<App />
+    <BrowserRouter basename={`${process.env.PUBLIC_URL}/`}>
+        <Switch>
+            <Route path="/" exact render={props => <App />} />
+            <Route
+                path="/project"
+                exact
+                render={props => <ProjectItem />} />
+            <Route
+                path="/events"
+                exact
+render={props => <EventItems />} />
+        </Switch>
+    </BrowserRouter>
+
     , document.getElementById('root'));
 

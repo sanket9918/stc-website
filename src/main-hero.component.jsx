@@ -22,8 +22,8 @@ class Hero extends Component {
 
                     </h1>
                     <p className="lead text-white">
-                      Student Technical Community is a student community in VIT Vellore aimed at the enhancing skills of its members in 
-                      various domains through quality projects and events tailored for cutting edge skill developement.                      
+                      Student Technical Community is a student community in VIT Vellore aimed at the enhancing skills of its members in
+                      various domains through quality projects and events tailored for cutting edge skill developement.
                       We have a passion for innovation and excellence.
                       </p>
                     <div className="btn-wrapper">
@@ -44,8 +44,14 @@ class Hero extends Component {
                       src={require("../src/assets/img/theme/bg1.svg")}
                     />
                   </Col>
+                  <Col lg="12">
+                    <center>
+                      <span style={{ position: 'absolute', left: '50%', width: '24px', height: '24px', marginLeft: '1px solid #fff', borderLeft: '1px solid #fff', borderBottom: '1px solid #fff', transform: 'rotate(-45deg)', boxSizing: 'border-box' }}></span>
+                    </center>
+                  </Col>
                 </Row>
               </div>
+
             </Container>
 
           </section>
