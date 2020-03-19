@@ -170,7 +170,7 @@ class Team extends Component{
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">Mukundh Bhusan</span>
+                        <span className="d-block mb-1">Mukundh Bhushan</span>
                         <small className="h6 text-muted">Tech Mentor</small>
                       </h5>
                       <div className="mt-3">
