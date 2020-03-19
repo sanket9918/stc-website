@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Row, Col, Button } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 
 class Hero extends Component {
@@ -45,8 +45,11 @@ class Hero extends Component {
                     />
                   </Col>
                   <Col lg="12">
-                    <center>
-                      <span style={{ position: 'absolute', left: '50%', width: '24px', height: '24px', marginLeft: '1px solid #fff', borderLeft: '1px solid #fff', borderBottom: '1px solid #fff', transform: 'rotate(-45deg)', boxSizing: 'border-box' }}></span>
+                    <center><a href="#section-forward">
+                      <span style={{ position: 'absolute', left: '50%', width: '24px', height: '24px', marginLeft: '1px solid #fff', borderLeft: '1px solid #fff', borderBottom: '1px solid #fff', transform: 'rotate(-45deg)', boxSizing: 'border-box' }}>
+                        
+                      </span>
+                      </a>
                     </center>
                   </Col>
                 </Row>

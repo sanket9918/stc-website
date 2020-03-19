@@ -12,7 +12,7 @@ class About extends Component {
   render() {
     return (
       <div className="position-relative">
-        <section className="section section-lg section-hero section-shaped">
+        <section className="section section-lg section-hero section-shaped" id="section-forward">
           <div className="shape shape-style-1 shape-default1">
             <span />
             <span />

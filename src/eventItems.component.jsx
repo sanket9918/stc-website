@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Navbar1 from './navbar.component';
 import Footer from './footer.component';
-import { Container, Row, Col, Card, CardBody, Button } from 'reactstrap'
+import { Container, Row, Col, Card, CardBody } from 'reactstrap'
 
 class EventItems extends Component {
 

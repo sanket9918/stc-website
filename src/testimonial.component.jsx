@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Row, Col, Button, UncontrolledCarousel } from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 
 class Testimonial extends Component {
   render() {
