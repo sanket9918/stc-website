@@ -30,14 +30,14 @@ class Team extends Component {
                       <small className="h6 text-muted">President</small>
                     </h5>
                     <div className="mt-3">
-                      {/* <Button
-                        className="btn-icon-only rounded-circle"
+                    <Button
+                        className="btn-icon-only rounded-circle ml-1"
                         color="warning"
-                        href="#pablo"
-                        onClick={e => e.preventDefault()}
+                        href="https://www.linkedin.com/in/jatin-mahajan-0b2735156/"
+                        
                       >
-                        <i className="fa fa-twitter" />
-                      </Button> */}
+                        <i className="fa fa-linkedin" />
+                      </Button>
                       <Button
                         className="btn-icon-only rounded-circle ml-1"
                         color="warning"
@@ -67,14 +67,14 @@ class Team extends Component {
                         </small>
                     </h5>
                     <div className="mt-3">
-                      {/* <Button
-                        className="btn-icon-only rounded-circle"
-                        color="warning"
-                        href="#pablo"
-                        onClick={e => e.preventDefault()}
+                    <Button
+                        className="btn-icon-only rounded-circle ml-1"
+                        color="primary"
+                        href="https://www.linkedin.com/in/shrey-sindher-0b3008167/"
+                        
                       >
-                        <i className="fa fa-twitter" />
-                      </Button> */}
+                        <i className="fa fa-linkedin" />
+                      </Button>
                       <Button
                         className="btn-icon-only rounded-circle ml-1"
                         color="primary"
@@ -102,14 +102,14 @@ class Team extends Component {
                       <small className="h6 text-muted">Project Lead</small>
                     </h5>
                     <div className="mt-3">
-                     {/* <Button
-                        className="btn-icon-only rounded-circle"
-                        color="warning"
-                        href="#pablo"
-                        onClick={e => e.preventDefault()}
+                    <Button
+                        className="btn-icon-only rounded-circle ml-1"
+                        color="success"
+                        href="https://www.linkedin.com/in/ujjwal-sinha-b8032514b/"
+                        
                       >
-                        <i className="fa fa-twitter" />
-                      </Button> */}
+                        <i className="fa fa-linkedin" />
+                      </Button>
                       <Button
                         className="btn-icon-only rounded-circle ml-1"
                         color="success"
@@ -137,14 +137,14 @@ class Team extends Component {
                       <small className="h6 text-muted">Management Lead</small>
                     </h5>
                     <div className="mt-3">
-                      {/* <Button
-                        className="btn-icon-only rounded-circle"
+                    <Button
+                        className="btn-icon-only rounded-circle ml-1"
                         color="warning"
-                        href="#pablo"
-                        onClick={e => e.preventDefault()}
+                        href="https://www.linkedin.com/in/mayank-yadav-528381187/"
+                        
                       >
-                        <i className="fa fa-twitter" />
-                      </Button> */}
+                        <i className="fa fa-linkedin" />
+                      </Button>
                       <Button
                         className="btn-icon-only rounded-circle ml-1"
                         color="warning"
@@ -170,18 +170,18 @@ class Team extends Component {
                   />
                   <div className="pt-4 text-center">
                     <h5 className="title">
-                      <span className="d-block mb-1">Mukundh Bhushan</span>
+                      <span className="d-block mb-1">Mukundh Bhushan AKNS</span>
                       <small className="h6 text-muted">Tech Mentor</small>
                     </h5>
                     <div className="mt-3">
-                      {/* <Button
-                        className="btn-icon-only rounded-circle"
-                        color="warning"
-                        href="#pablo"
-                        onClick={e => e.preventDefault()}
+                    <Button
+                        className="btn-icon-only rounded-circle ml-1"
+                        color="danger"
+                        href="https://www.linkedin.com/in/mukundh-bhushan-akns-101a24156/"
+                        
                       >
-                        <i className="fa fa-twitter" />
-                      </Button> */}
+                        <i className="fa fa-linkedin" />
+                      </Button>
                       <Button
                         className="btn-icon-only rounded-circle ml-1"
                         color="danger"
