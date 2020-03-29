@@ -25,8 +25,8 @@ class EventItems extends Component {
 
                                         </h1>
                                         <p className="lead text-white">
-                                            Quality projects is what makes us stand out of others and make us grow up as a leader in all technical manifolds.
-                      </p>
+                                        We conduct a number of events in order to power our goal of of creating a large number of inspiring and resourceful minds who will for the carry over our legacy of being equipped with the latest technological resources.
+                          </p>
                                         {/* The cards for the event listing */}
 
                                         <section className="section section-lg pt-lg-0">

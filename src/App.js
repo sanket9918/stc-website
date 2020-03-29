@@ -7,6 +7,7 @@ import Contact from './contact.component';
 import Team from './team.component';
 import Footer from './footer.component';
 import Testimonial from './testimonial.component';
+import MSP from './msp.component';
 
 
 
@@ -27,10 +28,12 @@ class App extends Component{
       <Hero />
       <About />
       <Projects />   
-      <Testimonial />   
+      <Testimonial /> 
+      <MSP />  
       <Team />
       <Contact />
       <Footer />
+      
       </>
     )
   }
