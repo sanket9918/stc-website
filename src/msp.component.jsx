@@ -9,13 +9,13 @@ class MSP extends Component {
 
                     <Container>
                         <Row className="row-grid align-items-center" >
-                           
+
                             <Col className="order-md-1" md="6" >
 
                                 <img
                                     alt="..."
                                     className="img-fluid"
-                                    style={{ padding:"3.5em"}}
+                                    style={{ padding: "3.5em" }}
                                     src={require("../src/assets/img/msp.svg")}
 
                                 />
