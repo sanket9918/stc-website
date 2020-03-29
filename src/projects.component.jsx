@@ -13,7 +13,7 @@ class Projects extends Component{
                 <Col lg="12">
                   <Row className="row-grid">
                     <Col lg="6">
-                      <Card className="card-lift--hover shadow border-0" style={{height:"15em"}}>
+                      <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           
                           <h6 className="text-primary text-uppercase">
@@ -35,14 +35,14 @@ class Projects extends Component{
                       </Card>
                     </Col>
                     <Col lg="6">
-                      <Card className="card-lift--hover shadow border-0" style={{height:"15em"}}>
+                      <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           
                           <h6 className="text-success text-uppercase">
                             Events
                           </h6>
                           <p className="description mt-3">
-                          We conduct events that delivers superior value and quality in your career.
+                          We conduct events that delivers superior value. 
                           </p>
                           
                           <Button
