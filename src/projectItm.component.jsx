@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Navbar1 from './navbar.component';
 import Footer from './footer.component';
-import { Container, Row, Col,Card,CardBody ,Button} from 'reactstrap'
+import { Container, Row, Col, Card, CardBody, Button } from 'reactstrap'
 
 class ProjectItem extends Component {
 
@@ -38,24 +38,24 @@ class ProjectItem extends Component {
                           <Col lg="12">
                             <Row className="row-grid">
                               <Col lg="12">
-                                <Card className="card-lift--hover shadow border-0" style={{ height: "20em",backgroundColor:"#9C27B0" }}>
+                                <Card className="card-lift--hover shadow border-0" style={{ height: "20em", backgroundColor: "#9C27B0" }}>
                                   <CardBody className="py-5">
 
-                                    <h6 className="text text-uppercase" style={{color:"white"}}>
+                                    <h6 className="text text-uppercase" style={{ color: "white" }}>
                                       FFCSonTheGo
                           </h6>
-                                    <p className="description mt-3" style={{color:"white"}}>
+                                    <p className="description mt-3" style={{ color: "white" }}>
                                       Website to visualize VIT timetable. Helpful to students of VIT University, Vellore campus & Chennai campus during FFCS course registrations.
                             </p>
 
-                                     <Button
-                            className="mt-4"
-                            color="success"
-                            href="https://ffcsonthego.vatz88.in"
-                            
-                          >
-                            Explore 
-                          </Button> 
+                                    <Button
+                                      className="mt-4"
+                                      color="success"
+                                      href="https://ffcsonthego.vatz88.in"
+
+                                    >
+                                      Explore
+                          </Button>
                                   </CardBody>
                                 </Card>
                               </Col>

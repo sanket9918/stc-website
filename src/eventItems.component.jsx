@@ -104,7 +104,7 @@ class EventItems extends Component {
                                                         </Row>
                                                         <Row className="row-grid">
                                                             <Col lg="4">
-                                                                <Card className="card-liftt--hover shadow border-0" style={{ height: "20em" }}>
+                                                                <Card className="card-lift--hover shadow border-0" style={{ height: "20em" }}>
                                                                     <CardBody className="py-5">
 
                                                                         <h6 className="text-success text-uppercase">
@@ -112,6 +112,26 @@ class EventItems extends Component {
                           </h6>
                                                                         <p className="description mt-3">
                                                                             An event helping you to build a fully functional Blockchain ratings app with Microsoft Azure. Participants to be mentored and monitored in the entirety of the session.                                                                        </p>
+                                                                        {/* <Button
+                                                                            className="mt-4"
+                                                                            color="success"
+                                                                            href="#"
+                                                                            onClick={e => e.preventDefault()}
+                                                                        >
+                                                                            More info
+                          </Button> */}
+                                                                    </CardBody>
+                                                                </Card>
+                                                            </Col>
+                                                            <Col lg="4">
+                                                                <Card className="card-lift--hover shadow border-0" style={{ height: "20em" }}>
+                                                                    <CardBody className="py-5">
+
+                                                                        <h6 className="text-success text-uppercase">
+                                                                           BREW
+                          </h6>
+                                                                        <p className="description mt-3">
+                                                                            Our 2 day flagship event which involves a plethora of innovations currently in production and aims at introducing and training bright minds to bring out the best in them.                                                                        </p>
                                                                         {/* <Button
                                                                             className="mt-4"
                                                                             color="success"
