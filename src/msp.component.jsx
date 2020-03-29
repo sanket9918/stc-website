@@ -9,6 +9,17 @@ class MSP extends Component {
 
                     <Container>
                         <Row className="row-grid align-items-center" >
+                           
+                            <Col className="order-md-1" md="6" >
+
+                                <img
+                                    alt="..."
+                                    className="img-fluid"
+                                    style={{ padding:"3.5em"}}
+                                    src={require("../src/assets/img/msp.svg")}
+
+                                />
+                            </Col>
                             <Col className="order-md-2" md="6">
                                 <div className="pr-md-5">
 
@@ -18,16 +29,6 @@ class MSP extends Component {
                   </p>
 
                                 </div>
-                            </Col>
-                            <Col className="order-md-1" md="6" >
-
-                                <img
-                                    alt="..."
-                                    className="img-fluid"
-                                    style={{ width: "80%", height: "auto" }}
-                                    src={require("../src/assets/img/msp.svg")}
-
-                                />
                             </Col>
 
                         </Row>
