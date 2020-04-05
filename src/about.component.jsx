@@ -40,7 +40,7 @@ class About extends Component {
                   </div>
                   <h3>About Us</h3>
                   <p>
-                    A community of passionate tech-enthusiasts , driven by three principles- Collaboration, Creativity and Experimentation, with a mission to foster innovation via passion-driven projects in various forthcoming domains that include Blockchain, Data Science, and many more. We strive to  collaborate with students through our workshops and events that  ensures a definitive transfer of knowledge.
+                    A community of passionate tech-enthusiasts , driven by three principles- Collaboration, Creativity and Experimentation, with a mission to foster innovation via passion-driven projects in various forthcoming domains that include Blockchain, Data Science, and many more. We strive to  collaborate with students through our workshops and events that ensure a definitive transfer of knowledge.
                   </p>
 
                 </div>

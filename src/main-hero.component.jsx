@@ -22,7 +22,7 @@ class Hero extends Component {
 
                     </h1>
                     <p className="lead text-white">
-                      Student Technical Community is a student community in VIT Vellore aimed at the enhancing skills of its members in
+                      Student Technical Community is a student community in VIT Vellore aimed at enhancing skills of its members in
                       various domains through quality projects and events tailored for cutting edge skill developement.
                       We have a passion for innovation and excellence.
                       </p>

@@ -25,7 +25,7 @@ class EventItems extends Component {
 
                                         </h1>
                                         <p className="lead text-white">
-                                        We conduct a number of events in order to power our goal of of creating a large number of inspiring and resourceful minds who will for the carry over our legacy of being equipped with the latest technological resources.
+                                        We conduct a number of events in order to power our goal of creating a large number of inspiring and resourceful minds who will further carry on our legacy of being equipped with the latest technological resources.
                           </p>
                                         {/* The cards for the event listing */}
 

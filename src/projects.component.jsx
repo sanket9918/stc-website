@@ -42,7 +42,7 @@ class Projects extends Component{
                             Events
                           </h6>
                           <p className="description mt-3">
-                          We conduct events that delivers superior value. 
+                          We conduct events that deliver superior value. 
                           </p>
                           
                           <Button
