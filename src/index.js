@@ -24,7 +24,7 @@ ReactDOM.render(
             <Route
                 path="/events"
                 exact
-render={props => <EventItems />} />
+                render={props => <EventItems />} />
         </Switch>
     </BrowserRouter>
 
