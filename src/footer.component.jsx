@@ -49,6 +49,19 @@ class Footer extends Component {
                 <UncontrolledTooltip delay={0} target="insta">
                   Follow us
                 </UncontrolledTooltip>
+                <Button
+                  className=" btn-neutral btn-icon-only btn-round ml-1"
+                  color="linkedin"
+                  href="https://www.linkedin.com/company/micvitvellore"
+                  id="linked"
+                  size="lg"
+                  target="_blank"
+                >
+                  <i className=" fa fa-linkedin" />
+                </Button>
+                <UncontrolledTooltip delay={0} target="insta">
+                  Follow us
+                </UncontrolledTooltip>
 
               </Col>
             </Row>
