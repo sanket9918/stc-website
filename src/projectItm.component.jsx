@@ -56,6 +56,7 @@ class ProjectItem extends Component {
                                       >
                                         Explore
                                       </Button>
+                                      
                                     </div>
 
                                   </CardBody>
