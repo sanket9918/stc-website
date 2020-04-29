@@ -97,7 +97,7 @@ import {
                         <NavItem>
                           <NavLink
                             className="nav-link-icon"
-                            href="https://www.linkedin.com/company/micvitvellore"
+                            href="  "
                             id="tooltip356693867"
                             target="_blank"
                           >

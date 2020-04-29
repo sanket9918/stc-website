@@ -47,15 +47,17 @@ class ProjectItem extends Component {
                                     <p className="description mt-3" style={{ color: "white" }}>
                                       Website to visualize VIT timetable. Helpful to students of VIT University, Vellore campus & Chennai campus during FFCS course registrations.
                             </p>
+                                    <div style={{ margin: "auto", textAlign: "right" }}>
+                                      <Button
+                                        className="mt-4"
+                                        color="success"
+                                        href="https://ffcsonthego.vatz88.in"
 
-                                    <Button
-                                      className="mt-4"
-                                      color="success"
-                                      href="https://ffcsonthego.vatz88.in"
+                                      >
+                                        Explore
+                                      </Button>
+                                    </div>
 
-                                    >
-                                      Explore
-                          </Button>
                                   </CardBody>
                                 </Card>
                               </Col>
