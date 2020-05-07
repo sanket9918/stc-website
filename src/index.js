@@ -10,6 +10,7 @@ import "../src/assets/scss/argon-design-system-react.scss";
 import ProjectItem from './projectItm.component';
 import EventItems from './eventItems.component';
 
+import * as serviceWorker from './serviceWorker';
 
 
 
@@ -30,3 +31,5 @@ ReactDOM.render(
 
     , document.getElementById('root'));
 
+
+serviceWorker.register()
