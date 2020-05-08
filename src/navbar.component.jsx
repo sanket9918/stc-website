@@ -1,29 +1,30 @@
 import React, { Component } from 'react'
 import Headroom from "headroom.js";
+import { Link } from 'react-router-dom'
 import {
-    // Button,
-    UncontrolledCollapse,   
-    UncontrolledDropdown,    
-    NavbarBrand,
-    Navbar,
-    NavItem,
-    NavLink,
-    Nav,
-    Container,
-    Row,
-    Col,
-    UncontrolledTooltip
-  } from "reactstrap";
+  // Button,
+  UncontrolledCollapse,
+  UncontrolledDropdown,
+  NavbarBrand,
+  Navbar,
+  NavItem,
+  NavLink,
+  Nav,
+  Container,
+  Row,
+  Col,
+  UncontrolledTooltip
+} from "reactstrap";
 
-  class Navbar1 extends Component{
-      componentDidMount(){
-          let headroom  = new Headroom(document.getElementById("navbar-main"));
-          headroom.init()
-      }
-      render(){
-          return(
-              <>
-                  <header className="header-global">
+class Navbar1 extends Component {
+  componentDidMount() {
+    let headroom = new Headroom(document.getElementById("navbar-main"));
+    headroom.init()
+  }
+  render() {
+    return (
+      <>
+        <header className="header-global">
           <Navbar
             className="navbar-main navbar-transparent navbar-light headroom"
             expand="lg"
@@ -31,10 +32,11 @@ import {
           >
             <Container>
               <NavbarBrand className="mr-lg-5" >
-              <img
-                  alt="..."
-                  src={require("../src/assets/img/brand/white.svg")}
-                />
+                <Link to='/'>
+                  <img
+                    alt="..."
+                    src={require("../src/assets/img/brand/white.svg")}
+                  /></Link>
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
@@ -43,7 +45,7 @@ import {
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
-                     
+
                     </Col>
                     <Col className="collapse-close" xs="6">
                       <button className="navbar-toggler" id="navbar_global">
@@ -55,7 +57,7 @@ import {
                 </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                   <UncontrolledDropdown nav>
-                   
+
                   </UncontrolledDropdown>
                   <UncontrolledDropdown nav>
                     {/*   */}
@@ -93,24 +95,24 @@ import {
                     <UncontrolledTooltip delay={0} target="tooltip356693867">
                       Follow us on Instagram
                     </UncontrolledTooltip>
-                        </NavItem>
-                        <NavItem>
-                          <NavLink
-                            className="nav-link-icon"
-                            href="  "
-                            id="tooltip356693867"
-                            target="_blank"
-                          >
-                            <i className="fa fa-linkedin" />
-                            <span className="nav-link-inner--text d-lg-none ml-2">
-                              LinkedIn
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      className="nav-link-icon"
+                      href="  "
+                      id="tooltip356693867"
+                      target="_blank"
+                    >
+                      <i className="fa fa-linkedin" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        LinkedIn
                       </span>
-                          </NavLink>
-                          <UncontrolledTooltip delay={0} target="tooltip356693867">
-                            Follow us on LinkedIn
+                    </NavLink>
+                    <UncontrolledTooltip delay={0} target="tooltip356693867">
+                      Follow us on LinkedIn
                     </UncontrolledTooltip>
-                        </NavItem>
-                  
+                  </NavItem>
+
                   {/* <NavItem className="d-none d-lg-block ml-lg-4">
                     <Button
                       className="btn-neutral btn-icon"
@@ -129,10 +131,10 @@ import {
             </Container>
           </Navbar>
         </header>
-              </>
+      </>
 
-          )
-      }
+    )
   }
+}
 
- export default Navbar1
+export default Navbar1
