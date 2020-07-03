@@ -33,7 +33,7 @@ ReactDOM.render(
 
 serviceWorker.register({
     onUpdate: registration => {
-        alert('New Version of EasyRecruit is available. Please update to latest version');
+        alert('New Version of our website is available. Please update to latest version');
         if (registration && registration.waiting) {
             registration.waiting.postMessage({ type: 'SKIP_WAITING' });
 
