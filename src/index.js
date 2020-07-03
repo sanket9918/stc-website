@@ -31,7 +31,6 @@ ReactDOM.render(
 
     , document.getElementById('root'));
 
-
 serviceWorker.register({
     onUpdate: registration => {
         alert('New Version of EasyRecruit is available. Please update to latest version');
