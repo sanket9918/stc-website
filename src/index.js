@@ -33,11 +33,15 @@ ReactDOM.render(
 
 serviceWorker.register({
     onUpdate: registration => {
-        alert('New Version of our website is available. Please update to latest version');
-        if (registration && registration.waiting) {
-            registration.waiting.postMessage({ type: 'SKIP_WAITING' });
+        const waitingSW = registration.waiting;
 
+        if (waitingSW) {
+            waitingSW.addEventListener("statechange", event => {
+                if (event.target.state === 'activated') {
+                    window.location.reload();
+                }
+            });
+            waitingSW.postMessage({ type: "SKIP_WAITING" })
         }
-        window.location.reload();
     }
 })
