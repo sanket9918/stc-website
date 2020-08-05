@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import "../src/assets/my-style.scss";
 
 import "../src/assets/vendor/nucleo/css/nucleo.css";
 import "../src/assets/vendor/font-awesome/css/font-awesome.min.css";

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Navbar1 from './navbar.component';
 import Footer from './footer.component';
 import { Container, Row, Col, Card, CardBody } from 'reactstrap'
-
+import {events } from './utils/events'
 class EventItems extends Component {
 
     render() {
@@ -32,119 +32,25 @@ class EventItems extends Component {
                                         <section className="section section-lg pt-lg-0">
                                             <Container>
                                                 <Row className="justify-content-center">
-                                                    <Col lg="12">
-                                                        <Row className="row-grid">
-                                                            <Col lg="4">
-                                                                <Card className="card-lift--hover shadow border-0" style={{ height: "20em" }}>
-                                                                    <CardBody className="py-5">
+                                                    <div className='grid'>
+                                                        {events.map(e => (
+                                                            <Card className="card-lift--hover shadow border-0" style={{ height: "20em" }}>
+                                                                <CardBody className="py-5">
+                                                                    <h6 className="text-success text-uppercase">
+                                                                    {e.title}
+                                                                    </h6>
+                                                                    <p className="description mt-3">
+                                                                    {e.desc}
+                                                                    </p>
 
-                                                                        <h6 className="text-success text-uppercase">
-                                                                            Docker Workshop
-                          </h6>
-                                                                        <p className="description mt-3">
-                                                                            Experience a unique way of learning new concepts by understanding the basics of  Docker. It is a tool designed to make it easier to create, deploy and run application by using containers.
-                          </p>
+                                                                </CardBody>
+                                                            </Card> 
 
-                                                                        {/* <Button
-                            className="mt-4"
-                            color="primary"
-                            href="#"
-                            onClick={e => e.preventDefault()}
-                          >
-                            More info
-                          </Button> */}
-                                                                    </CardBody>
-                                                                </Card>
-                                                            </Col>
-                                                            <Col lg="4">
-                                                                <Card className="card-lift--hover shadow border-0" style={{ height: "20em" }}>
-                                                                    <CardBody className="py-5">
-
-                                                                        <h6 className="text-success text-uppercase">
-                                                                            Javascript Workshop
-                          </h6>
-                                                                        <p className="description mt-3">
-                                                                            An interactive workshop on the programming language which is a part of most of the webpages,whose implementations allow client-side script to interact with the user and make dyanamic pages.                          </p>
-
-                                                                        {/* <Button
-                                                                            className="mt-4"
-                                                                            color="success"
-                                                                            href="#"
-                                                                            onClick={e => e.preventDefault()}
-                                                                        >
-                                                                            More info
-                          </Button> */}
-                                                                    </CardBody>
-                                                                </Card>
-                                                            </Col>
-
-                                                            <Col lg="4">
-                                                                <Card className="card-lift--hover shadow border-0" style={{ height: "20em" }}>
-                                                                    <CardBody className="py-5">
-
-                                                                        <h6 className="text-success text-uppercase">
-                                                                            Intro to Github
-                          </h6>
-                                                                        <p className="description mt-3">
-                                                                            An info cum hands-on session on the popular web-based hosting service for version control using Git. GITHUB offers all the distributed version control and source code management(SCM) functionality of Git as well as adding its own features.
-                                                                        </p>
-                                                                        {/* <Button
-                                                                            className="mt-4"
-                                                                            color="success"
-                                                                            href="#"
-                                                                            onClick={e => e.preventDefault()}
-                                                                        >
-                                                                            More info
-                          </Button> */}
-                                                                    </CardBody>
-                                                                </Card>
-                                                            </Col>
-
-
-                                                        </Row>
-                                                        <Row className="row-grid">
-                                                            <Col lg="4">
-                                                                <Card className="card-lift--hover shadow border-0" style={{ height: "20em" }}>
-                                                                    <CardBody className="py-5">
-
-                                                                        <h6 className="text-success text-uppercase">
-                                                                            Blockchain with Azure
-                          </h6>
-                                                                        <p className="description mt-3">
-                                                                            An event helping you to build a fully functional Blockchain ratings app with Microsoft Azure. Participants to be mentored and monitored in the entirety of the session.                                                                        </p>
-                                                                        {/* <Button
-                                                                            className="mt-4"
-                                                                            color="success"
-                                                                            href="#"
-                                                                            onClick={e => e.preventDefault()}
-                                                                        >
-                                                                            More info
-                          </Button> */}
-                                                                    </CardBody>
-                                                                </Card>
-                                                            </Col>
-                                                            <Col lg="4">
-                                                                <Card className="card-lift--hover shadow border-0" style={{ height: "20em" }}>
-                                                                    <CardBody className="py-5">
-
-                                                                        <h6 className="text-success text-uppercase">
-                                                                           BREW
-                          </h6>
-                                                                        <p className="description mt-3">
-                                                                            Our 2 day flagship event which involves a plethora of innovations currently in production and aims at introducing and training bright minds to bring out the best in them.                                                                        </p>
-                                                                        {/* <Button
-                                                                            className="mt-4"
-                                                                            color="success"
-                                                                            href="#"
-                                                                            onClick={e => e.preventDefault()}
-                                                                        >
-                                                                            More info
-                          </Button> */}
-                                                                    </CardBody>
-                                                                </Card>
-                                                            </Col>
-                                                        </Row>
-                                                    </Col>
+                                                        ))}
+                                                        
+                                                    </div>                                                        
+                                                      
+                                               
                                                 </Row>
                                             </Container>
                                         </section>

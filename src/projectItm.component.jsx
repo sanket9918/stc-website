@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Navbar1 from './navbar.component';
 import Footer from './footer.component';
 import { Container, Row, Col, Card, CardBody, Button } from 'reactstrap'
-
+import { project } from './utils/project'
 class ProjectItem extends Component {
 
   render() {
@@ -56,7 +56,7 @@ class ProjectItem extends Component {
                                       >
                                         Explore
                                       </Button>
-                                      
+
                                     </div>
 
                                   </CardBody>
