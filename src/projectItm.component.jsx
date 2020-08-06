@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Navbar1 from './navbar.component';
 import Footer from './footer.component';
-import { Container, Row, Col, Card, CardBody, Button } from 'reactstrap'
+import { Container, Row, Col, Card, CardBody } from 'reactstrap'
 import { project } from './utils/project'
 class ProjectItem extends Component {
 
@@ -11,8 +11,7 @@ class ProjectItem extends Component {
         <Navbar1 />
 
         <div className='position-relative'>
-          <section className="section section-lg section-hero section-shaped">
-            {/* Background circles */}
+          <section className="section section-lg section-hero section-shaped">        
             <div className="shape shape-style-1 shape-default">
 
             </div>
