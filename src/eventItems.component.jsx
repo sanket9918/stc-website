@@ -4,7 +4,9 @@ import Footer from './footer.component';
 import { Container, Row, Col, Card, CardBody } from 'reactstrap'
 import {events } from './utils/events'
 class EventItems extends Component {
-
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
     render() {
         return (
             <>

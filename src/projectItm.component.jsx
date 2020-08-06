@@ -4,7 +4,9 @@ import Footer from './footer.component';
 import { Container, Row, Col, Card, CardBody } from 'reactstrap'
 import { project } from './utils/project'
 class ProjectItem extends Component {
-
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <>
