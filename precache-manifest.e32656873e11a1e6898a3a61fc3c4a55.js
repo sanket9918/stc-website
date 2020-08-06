@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa37b0691cebd243ba54eb949b961b83",
+    "revision": "eb61129563fb7b6b6d08dfe5ffac3399",
     "url": "/stc-website/index.html"
   },
   {
-    "revision": "8e4e35e589f166e39c56",
-    "url": "/stc-website/static/css/main.53f69b0d.chunk.css"
+    "revision": "3c49bb3b67ac708b70c6",
+    "url": "/stc-website/static/css/main.64332d98.chunk.css"
   },
   {
-    "revision": "14269882dff94122cf48",
-    "url": "/stc-website/static/js/2.4f0425e8.chunk.js"
+    "revision": "ee294d181959735dd63f",
+    "url": "/stc-website/static/js/2.87d15b4d.chunk.js"
   },
   {
-    "revision": "94a3d75db89699ee2ef9f4f4d471747b",
-    "url": "/stc-website/static/js/2.4f0425e8.chunk.js.LICENSE.txt"
+    "revision": "cd5079a5964b7b5fc98e65cfa4bcc388",
+    "url": "/stc-website/static/js/2.87d15b4d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8e4e35e589f166e39c56",
-    "url": "/stc-website/static/js/main.907c4b66.chunk.js"
+    "revision": "3c49bb3b67ac708b70c6",
+    "url": "/stc-website/static/js/main.68dc0ce6.chunk.js"
   },
   {
     "revision": "86c26e00c3b661a7cbe6",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f2c0aa99a6de69cbe898928726255333",
     "url": "/stc-website/static/media/mayank.f2c0aa99.jpg"
+  },
+  {
+    "revision": "85a874a1bb0661a7064269bcf21de758",
+    "url": "/stc-website/static/media/msp.85a874a1.svg"
   },
   {
     "revision": "02c3595b2a9a0af6ef7d4e84998bf397",
@@ -96,7 +100,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stc-website/static/media/white-horizontal.9190b15d.svg"
   },
   {
-    "revision": "185ac7e2719efdc6862d417dac26efe0",
-    "url": "/stc-website/static/media/white.185ac7e2.svg"
+    "revision": "d9d9b4620955fe62e3637a5ab7850d17",
+    "url": "/stc-website/static/media/white.d9d9b462.svg"
   }
 ]);
