@@ -1,6 +1,24 @@
-.grid { 
+.grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 20px;
   align-items: stretch;
+}
+
+.grid-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 30px;
+  align-items: stretch;
+}
+
+.inline {
+  float: left;
+}
+
+@media only screen and (max-width: 767px) {
+  .small-screen {
+    text-align: center;
+    margin: auto;
   }
+}

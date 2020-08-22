@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import { Col, Row, Container, Button } from 'reactstrap'
-
+import React, { Component } from "react";
+import { Col, Row, Container, Button } from "reactstrap";
+import { board } from "./utils/board";
 class Team extends Component {
   render() {
     return (
@@ -12,194 +12,36 @@ class Team extends Component {
                 <h2 className="display-3">Our Board</h2>
                 <p className="lead text-muted">
                   Our pathfinders who make us walk on the path of success.
-                  </p>
+                </p>
               </Col>
             </Row>
             <Row>
-              <Col className="mb-5 mb-lg-0" lg="3" md="6">
-                <div className="px-4">
-                  <img
-                    alt="..."
-                    className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                    src={require("../src/assets/img/board/jatin.jpg")}
-                    style={{ width: "200px" }}
-                  />
-                  <div className="pt-4 text-center">
-                    <h5 className="title">
-                      <span className="d-block mb-1">Jatin Mahajan</span>
-                      <small className="h6 text-muted">President</small>
-                    </h5>
-                    <div className="mt-3">
-                    <Button
-                        className="btn-icon-only rounded-circle ml-1"
-                        color="warning"
-                        href="https://www.linkedin.com/in/jatin-mahajan-0b2735156/"
-                        
-                      >
-                        <i className="fa fa-linkedin" />
-                      </Button>
-                      <Button
-                        className="btn-icon-only rounded-circle ml-1"
-                        color="warning"
-                        href="https://instagram.com/jatin.mahajan_?igshid=3wizzyq0d5cd"
-                        
-                      >
-                        <i className="fa fa-instagram" />
-                      </Button>
-
+              <Col>
+                <div className="grid-board">
+                  {board.map((e) => (
+                    <div className="inline">
+                      <img
+                        key={e.image}
+                        alt="..."
+                        className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                        src={require(`../src/assets/img/board/${e.image}`)}
+                        style={{ width: "200px", height: "200px" }}
+                      />
+                      <div className="pt-4 text-center">
+                        <h5 className="title">
+                          <span className="d-block mb-1">{e.name}</span>
+                          <small className="h6 text-muted">{e.pos}</small>
+                        </h5>
+                      </div>
                     </div>
-                  </div>
-                </div>
-              </Col>
-              <Col className="mb-5 mb-lg-0" lg="3" md="6">
-                <div className="px-4">
-                  <img
-                    alt="..."
-                    className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                    src={require("../src/assets/img/board/shrey.jpeg")}
-                    style={{ width: "200px" }}
-                  />
-                  <div className="pt-4 text-center">
-                    <h5 className="title">
-                      <span className="d-block mb-1">Shrey Sindher</span>
-                      <small className="h6 text-muted">
-                        Tech lead
-                        </small>
-                    </h5>
-                    <div className="mt-3">
-                    <Button
-                        className="btn-icon-only rounded-circle ml-1"
-                        color="primary"
-                        href="https://www.linkedin.com/in/shrey-sindher-0b3008167/"
-                        
-                      >
-                        <i className="fa fa-linkedin" />
-                      </Button>
-                      <Button
-                        className="btn-icon-only rounded-circle ml-1"
-                        color="primary"
-                        href="https://instagram.com/ssindher11?igshid=1wav6x6e3vssg"
-                        
-                      >
-                        <i className="fa fa-instagram" />
-                      </Button>
-
-                    </div>
-                  </div>
-                </div>
-              </Col>
-              <Col className="mb-5 mb-lg-0" lg="3" md="6">
-                <div className="px-4">
-                  <img
-                    alt="..."
-                    className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                    src={require("../src/assets/img/board/ujjwal.jpg")}
-                    style={{ width: "200px" }}
-                  />
-                  <div className="pt-4 text-center">
-                    <h5 className="title">
-                      <span className="d-block mb-1">Ujjwal Sinha</span>
-                      <small className="h6 text-muted">Project Lead</small>
-                    </h5>
-                    <div className="mt-3">
-                    <Button
-                        className="btn-icon-only rounded-circle ml-1"
-                        color="success"
-                        href="https://www.linkedin.com/in/ujjwal-sinha-b8032514b/"
-                        
-                      >
-                        <i className="fa fa-linkedin" />
-                      </Button>
-                      <Button
-                        className="btn-icon-only rounded-circle ml-1"
-                        color="success"
-                        href="https://instagram.com/noobie_1999?igshid=1gg83gepvf4ad"
-                        
-                      >
-                        <i className="fa fa-instagram" />
-                      </Button>
-
-                    </div>
-                  </div>
-                </div>
-              </Col>
-              <Col className="mb-5 mb-lg-0" lg="3" md="6">
-                <div className="px-4">
-                  <img
-                    alt="..."
-                    className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                    src={require("../src/assets/img/board/mayank.jpg")}
-                    style={{ width: "200px" }}
-                  />
-                  <div className="pt-4 text-center">
-                    <h5 className="title">
-                      <span className="d-block mb-1">Mayank Yadav</span>
-                      <small className="h6 text-muted">Management Lead</small>
-                    </h5>
-                    <div className="mt-3">
-                    <Button
-                        className="btn-icon-only rounded-circle ml-1"
-                        color="warning"
-                        href="https://www.linkedin.com/in/mayank-yadav-528381187/"
-                        
-                      >
-                        <i className="fa fa-linkedin" />
-                      </Button>
-                      <Button
-                        className="btn-icon-only rounded-circle ml-1"
-                        color="warning"
-                        href="https://instagram.com/i__am__mayank__?igshid=4bvuhu03mt5c"
-                        
-                      >
-                        <i className="fa fa-instagram" />
-                      </Button>
-
-                    </div>
-                  </div>
-                </div>
-              </Col>
-            </Row>
-            <Row>
-              <Col className="mb-5 mb-lg-0" lg="12" md="12" style={{ marginTop: "2em" }}>
-                <div className="px-4">
-                  <img
-                    alt="..."
-                    className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                    src={require("../src/assets/img/board/mukund.PNG")}
-                    style={{ width: "200px" }}
-                  />
-                  <div className="pt-4 text-center">
-                    <h5 className="title">
-                      <span className="d-block mb-1">Mukundh Bhushan AKNS</span>
-                      <small className="h6 text-muted">Tech Mentor</small>
-                    </h5>
-                    <div className="mt-3">
-                    <Button
-                        className="btn-icon-only rounded-circle ml-1"
-                        color="danger"
-                        href="https://www.linkedin.com/in/mukundh-bhushan-akns-101a24156/"
-                        
-                      >
-                        <i className="fa fa-linkedin" />
-                      </Button>
-                      <Button
-                        className="btn-icon-only rounded-circle ml-1"
-                        color="danger"
-                        href="https://instagram.com/yogan035?igshid=1x5awfecfmhxq"
-                        
-                      >
-                        <i className="fa fa-instagram" />
-                      </Button>
-
-                    </div>
-                  </div>
+                  ))}
                 </div>
               </Col>
             </Row>
           </Container>
         </section>
       </>
-    )
+    );
   }
 }
 export default Team;
