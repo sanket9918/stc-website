@@ -10,11 +10,10 @@ class App_promo extends Component {
         >
           <Container>
             <Row className="row-grid align-items-center">
-              <Col className="order-md-1" md="6"></Col>
               <Col>
-                <div className="pr-md-5 center-tag">
+                <div className="pr-md-5" style={{ marginTop: "4em" }}>
                   <h3 style={{ color: "white" }}>
-                    Our app is now available on Google Play.
+                    Our app is now available on Google Play .
                   </h3>
                   <p style={{ color: "#C4CBE5" }}>
                     Now get connected with our operations more easily with our
@@ -25,13 +24,24 @@ class App_promo extends Component {
                   <div className="small-screen">
                     <img
                       alt="..."
-                      className="img-fluid small-screen"
+                      className="img-fluid"
                       width="200px"
                       style={{ paddingTop: "3.5em", marginLeft: "-1em" }}
                       src={require("./assets/img/google-play-badge.png")}
                     />
                   </div>
                 </a>
+              </Col>
+              <Col lg="6">
+                <div className="center-tag">
+                  <img
+                    alt="..."
+                    className="img-fluid small-screen"
+                    width="200px"
+                    style={{ paddingTop: "3.5em" }}
+                    src={require("./assets/img/app.png")}
+                  />
+                </div>
               </Col>
             </Row>
           </Container>
