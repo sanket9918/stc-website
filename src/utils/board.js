@@ -20,7 +20,7 @@ export const board = [
     image: "rishabh.jpg",
   },
   {
-    name: "Shreyansh jain",
+    name: "Shreyansh Jain",
     pos: "Project Lead",
     image: "shreyansh.jpeg",
   },

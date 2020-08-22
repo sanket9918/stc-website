@@ -17,7 +17,7 @@ class App_promo extends Component {
                   </h3>
                   <p style={{ color: "#C4CBE5" }}>
                     Now get connected with our operations more easily with our
-                    our exclusive Android app made for convienience.
+                    exclusive Android app made for convienience.
                   </p>
                 </div>
                 <a href="https://play.google.com/store/apps/details?id=com.mstc.mstcapp&hl=en_IN">
